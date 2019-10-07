@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <title>Connie's Awesome Website</title>
+    <body>
+        <h1>Connie Wang</h1>
+        <h2>About Me</h2>
+        <p>I go to UW</p>
+        <p>I study computer science</p>
+
+        <h2>My Favorite Sites</h2>
+        <ul>
+            <li>
+                <a href="http://winhost6.ischool.uw.edu/gclass/default.aspx">gClass</a>
+            </li>
+            <li>
+                <a href="https://github.com/">github</a>
+            </li>
+        </ul>
+
+        <h2>My favorite pictures</h2>
+        <a href="https://www.washington.edu/news/2018/07/19/uw-nurse-camp-provides-high-school-students-with-exposure-to-the-promise-of-a-nursing-degree/">
+            <img src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2016/04/04154306/IMG_3973.jpg" title="uw sign" style="width:100px">
+        </a>
+        <a href="http://posters.hsa.washington.edu/">
+            <img src="http://posters.hsa.washington.edu/wp-content/uploads/2018/09/UW-Logo.png" title="uw logo" style="width:100px">
+        </a>
+
+        <h2>table</h2>
+        <table>
+            <tr>
+                <th>1</th>
+                <th>0</th>
+            </tr>
+            <tr>
+                    <th>1</th>
+                    <th>0</th>
+            </tr>
+        </table>
+
+        <canvas id="canvas" width="420" height="100">  
+        </canvas>
+
+        <script>
+            let ctx = document.getElementById("canvas").getContext("2d");
+            ctx.font= "24px Arial";
+            ctx.strokeText("hello info101", 10, 50);
+        </script>
+
+        <blockquote>"hi this is a blockquote" - me 2019</blockquote>
+    </body>
+</html>
