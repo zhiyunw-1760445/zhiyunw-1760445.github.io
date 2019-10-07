@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <title>Hello World</title>
+    <body>
+        <h1>Hello World</h1>
+        <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/XzStfF0PMS8">
+        </iframe>
+
+        <iframe width="600" height="450"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21501.987373834476!2d-122.32084225401832!3d47.65045545633869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54901506e4e1c263%3A0x79576ab382d8ddaa!2sGoogle%20Seattle%20-%20Fremont!5e0!3m2!1sen!2sus!4v1570429850540!5m2!1sen!2sus">
+        </iframe>
+
+        <canvas id="canvas" width="420" height="100">  
+        </canvas>
+
+        <script>
+            let ctx = document.getElementById("canvas").getContext("2d");
+            ctx.font= "24px Arial";
+            ctx.strokeText("hello info101", 10, 50);
+        </script>
+    </body>
+</html>
