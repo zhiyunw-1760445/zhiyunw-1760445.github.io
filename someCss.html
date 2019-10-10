@@ -1,51 +1,52 @@
 <!DOCTYPE html>
-<html>
-    <title>Connie's Awesome Website</title>
-    <body>
-        <h1 style="border:9px solid red">Connie Wang</h1>
-        <h2>About Me</h2>
-        <p style="font-family:serif">I go to UW</p>
-        <p style="font-family:sans-serif">I study computer science</p>
+<html lang="en">
 
-        <h2>My Favorite Sites</h2>
-        <ul>
-            <li>
-                <a href="http://winhost6.ischool.uw.edu/gclass/default.aspx">gClass</a>
-            </li>
-            <li>
-                <a href="https://github.com/">github</a>
-            </li>
-        </ul>
+   <head>
+      <meta charset="utf-8">
+      <title>Connie Wang</title>
+      <link rel="stylesheet" href="anExternalCss.css">
+      <script src="https://use.fontawesome.com/0a8764404e.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   </head>
+   <body>
+       <header>
+           <h1><span class="console">console</span>.<span class="log">log</span><span class="parenthesis">(</span><span class="quotes">'</span><span id="hello-world">Hello World!</span><span class="quotes">'</span><span class="parenthesis">);</span></h1>
+       </header>
+       <div class="arrow-down">
+           <a href="#about-me"><div class="fa fa-angle-down fa-3x"></div></a>
+       </div>
 
-        <h2>My favorite pictures</h2>
-        <a href="https://www.washington.edu/news/2018/07/19/uw-nurse-camp-provides-high-school-students-with-exposure-to-the-promise-of-a-nursing-degree/">
-            <img src="https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2016/04/04154306/IMG_3973.jpg" title="uw sign" style="width:50px; height:50px">
-        </a>
-        <a href="http://posters.hsa.washington.edu/">
-            <img src="http://posters.hsa.washington.edu/wp-content/uploads/2018/09/UW-Logo.png" title="uw logo" style="width:50px; height:50px">
-        </a>
+       <section id="about-me">
+           <h2><img src="https://cdn.shopify.com/s/files/1/0994/0236/files/siberian-husky_4217efb5-9130-4bdc-aa80-b274821bd05d_large.jpg?v=1518819764" class="dog">connie wang</h2>
+           <p>
+               This is a paragraph
+           </p>
+           <p>
+               This is a list
+               <ul>
+                   <li>1</li>
+                   <li>2</li>
+                   <li>3</li>
+                   <li>4</li>
+               </ul>
+           </p>
 
-        <h2>table</h2>
-        <table>
-            <tr>
-                <th>1</th>
-                <th>0</th>
-            </tr>
-            <tr>
-                    <th>1</th>
-                    <th>0</th>
-            </tr>
-        </table>
+       </section>
+       <section>
+           <h2>projects</h2>
+           <h3 class="warning">under construction</h3>
 
-        <canvas id="canvas" width="420" height="100">  
-        </canvas>
+           <img src="https://assets.dmagstatic.com/wp-content/uploads/2018/12/dallas-construction-677x451.jpg" class="construction">
+           <img src="https://specials-images.forbesimg.com/imageserve/5c0077cc31358e5b43383ffc/960x0.jpg?fit=scale" class="construction">
 
-        <script>
-            let ctx = document.getElementById("canvas").getContext("2d");
-            ctx.font= "24px Arial";
-            ctx.strokeText("hello info101", 10, 50);
-        </script>
-
-        <blockquote>"hi this is a blockquote" - me 2019</blockquote>
-    </body>
-</html>
+       </section>
+      
+       <footer>
+           <h2>contact me</h2>
+           <div class="contact-icons">
+           <a href="mailto:zhiyunw@uw.edu"><i class="fa fa-envelope"></i></a>
+           <a href="https://www.linkedin.com/in/connie-w/"><i class="fa fa-linkedin"></i></a>
+           <a href="https://github.com/connie-w"><i class="fa fa-github-alt"></i></a>
+           <div>
+       </footer>
+   </body>
